@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+  background-color: #68FFB7;
+  width: 390px;
+  height: 844px;
+  align-items: center;
+  display: flex;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.home {
+  width: 100%;
+  text-align: center;
+  align-items:center;
+  top:100px;
+}
+
+.home .homeText{
+  font-size: 30px;
+}
+
+.home .btn{
+  padding: 8%;
+  border-radius: 20px;
+  max-width: 90%;
+}
+
+.home #buttonTitle{
+   font-size: 24px;
+}
+
+.home #buttonText{
+  font-size:19px;
+}
+
+.work{
+  height: 100%;
+  width: 100%;
+}
+
+.imageScreen{
+  height: 100%;
+  width:100%;
+}
+
+.imageScreen .makeImgBox{
+  width: 100%;
+  height: 95%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backline{
+  width: 100%;
+  height: 5%;
+  margin-top:1vh;
+}
+.talkContent{
+  height: 95%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.talkDetail{
+  height: 65%;
+  align-items: center;
+  overflow: scroll;
+}
+
+.talkDetail::-webkit-scrollbar{
+  display: none;
+}
+
+.talkButtons{
+  height: 25%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.job .btn{
+  min-width: 30%;
+  max-height: 50%;
+  border : solid 1px
+}
+
+.talkButtons .category{
+  max-height: 70%;
+}
+
+.work #title{
+  font-size:24px;
+}
+
+
+
+.welfare .input-group{
+  width:65%;
+}
+
+.ShowImage {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.makeImgBox #diffImg {
+  width:80%;
+}
+
+.talk{
+  height: 100%;
+  width: 100%;
+}
+
+.talk .gpt-text{
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin:5px;
+  max-width: 60%;
+  margin-right: auto;
+}
+
+.talk .user-text{
+  background-color: yellow;
+  border-radius: 20px;
+  padding: 5px;
+  margin:5px;
+  max-width: 60%;
+  margin-left: auto;
+}
+
+.talk-box{
+  width:90%;
+  height: 50%;
+  margin:auto;
+  overflow: scroll;
+}
+
+.talk-box::-webkit-scrollbar{
+  display: none;
+}
+
+.talk .talkButtons{
+  height: 15%;
+}
+
+.user-text .wmde-markdown{
+  background-color: yellow;
+}
+
+.talk .add_func .mic_button{
+
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0vh;
+}
+
+.my-button {
+  padding: 1vh;
+  height: 10vh;  /* 뷰포트 높이의 10%로 버튼의 높이를 지정 */
+  margin-left:2vh;
+  margin-right:2vh;
+  margin-bottom:1vh;
+}
+
+.welfare-button{
+  width: 100px;
+  flex:0 0 auto;
+}
+
+.overflow-auto{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  overflow: scroll;
+}
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+.img-btn{
+  width: 100%;
+  text-align: center;
+  height: 8vh;
+}
+
+.img-box{
+  width: 80%;
+}
